@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Sen', sans-serif;
+    color: #475569;
+  }
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
